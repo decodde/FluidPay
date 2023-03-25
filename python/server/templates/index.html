@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <title>FluidPay Devices</title>
+    </style>
+</head>
+
+<body>
+    <div class="d-flex small-card justify-content-between text-white" style="padding : 20px">
+        <p class="dm-sans-large-bold text-white">FluidPay Devices</p>
+        <div class="dm-sans-large-bold">
+            <span>
+                <i class="type-btn bi bi-arrow-repeat" onclick="Home.load.availablePorts()"></i>
+            </span>
+            <span>
+                <select class="availablePortsSelect input">
+                    <option disabled selected> Available Ports</option>
+                </select>
+            </span>
+        </div>
+    </div>
+    <div class="row" style="background-color: black;">
+        <div class="col-md-2 d-sm-none d-md-block col-lg-2 col-xl-2 sidebar" style="padding:20px">
+            <div class="nav-button active">
+                <i class=""></i>
+                <span class="dm-sans-large-bold">Device Configuration</span>
+            </div>
+            <div class="nav-button">
+                <span class="dm-sans-large-bold">Card Configuration</span>
+            </div>
+        </div>
+        <div class="col-md-10 col-lg-10 col-sm-12" style="padding :20px">
+            <div>
+                <div class="container  dashboard-glass-container">
+                    <p>fionIONIONOF</p>
+                    <P>OIFSNOUINONO</P>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/home.js') }}"></script>
+
+</html>

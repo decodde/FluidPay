@@ -1,0 +1,48 @@
+
+
+body {
+    
+    height : 100%;
+}
+
+.main-con {
+    position: absolute;
+    height: calc(100% - 0px);
+    width: calc(100% - 15px);
+}
+.main-con>.row{
+    height : 100%;
+}
+.left-con{
+    background-color: var(--color-blue);
+    padding : 50px
+}
+
+.right-con{
+    background-color: white;
+    padding-top : 1%
+}
+
+.form-input > input{
+    padding : 10px;
+    border-radius : 10px;
+    width: 100%;
+    background-color: #073aff2e;
+    border-style: none;
+}
+.container.onboardForms{
+    padding-top : 50px;
+}
+.form {
+    padding: 50px
+}
+
+.onboardButton {
+    padding:10px;
+    border-radius:10px;
+    color : white ;
+    
+}
+.blurr{
+    
+}

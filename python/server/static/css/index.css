@@ -1,0 +1,144 @@
+:root {
+    --theme-blue-1: #4318FF;
+}
+
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.dm-sans-medium-bold {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    letter-spacing: -0.02em;
+}
+
+.dm-sans-extra-large-bold {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.02em;
+}
+
+.dm-sans-large-bold {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.02em;
+}
+
+.dm-sans-extra-small-bold {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: -0.02em;
+}
+
+.small-card {
+    background: black;
+    box-shadow: 0px 4px 20px -10px rgba(0, 0, 0, 0.25);
+    border-bottom : 2px solid greenyellow;
+    padding: 20px
+}
+
+.small-card-1 {
+    background: #fff;
+    box-shadow: 0px 4px 20px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 20px;
+    height: 97px
+}
+
+.small-card-2 {
+    background: #5129FF;
+    box-shadow: 0px 4px 20px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 0px;
+    padding: 20px;
+    height: 97px
+}
+
+.sidebar {
+    border-right: 1px solid white;
+}
+
+.nav-button {
+    color : white;
+    padding : 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border : 1px solid greenyellow
+}
+
+.nav-button.active {
+    color: white;
+    background-color: rgba(172, 255, 47, 0.765);
+    border-right : 5px solid white
+}
+
+/*//status cards*/
+.success-status {
+    padding: 5px;
+    background: rgba(5, 205, 153, 0.1);
+    border-radius: 7px;
+    color: #05CD99
+}
+
+.type-btn {
+    cursor: pointer
+}
+
+.text-blue {
+    color: var(--theme-blue-1)
+}
+
+input {
+    border-radius: 8px;
+    background-color: #f4f7fe;
+    padding: 5px;
+    border: none
+}
+.input {
+    border-radius: 8px;
+    background-color: #f4f7fe;
+    padding: 5px;
+    border: none
+}
+
+button {
+    background-color: #4318FF;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+
+.dashboard-glass-container {
+    color: white;
+    border: 1px solid greenyellow;
+    padding: 20px;
+    /* border-radius: 20px 0px 0px 20px; */
+    box-shadow: inset -10px -1px 60px -20px greenyellow
+}
+
+body{
+    background-color: black;
+}
